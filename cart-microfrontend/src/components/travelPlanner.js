@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './travelPlanner.css'; // Ensure this file exists and is properly linked
+import './travelPlanner.css';
 
 const TravelPlanner = () => {
   const [trips, setTrips] = useState([

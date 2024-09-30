@@ -1,5 +1,4 @@
 .travel-planner-container {
-  background-image: 'url(${../assets/images/travelPlanner.jpg})';
 
   max-width: 800px;
   margin: auto;
