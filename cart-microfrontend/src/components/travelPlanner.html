@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App - FEND Capstone</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="travel-app-container">
+        <header class="travel-app-header">
+            Plan Your Trip
+        </header>
+        
+        <!-- Search bar for destination input -->
+        <input type="text" id="location-input" placeholder="Enter a destination..." class="location-input">
+        
+        <!-- Date input for trip -->
+        <input type="date" id="trip-date" class="trip-date">
+        
+        <!-- Button to fetch trip info -->
+        <button id="get-trip-info" class="search-button">Get Trip Info</button>
+
+        <!-- Weather and location image display -->
+        <div class="trip-info">
+            <div class="weather-info">
+                <h2>Weather Forecast</h2>
+                <table class="weather-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Temperature</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody id="weather-details"></tbody>
+                </table>
+            </div>
+
+            <div class="location-image">
+                <h2>Location Image</h2>
+                <img id="location-img" src="#" alt="Location Image" class="location-img">
+            </div>
+        </div>
+
+        <!-- Trip summary -->
+        <div class="trip-summary">
+            <h2>Trip Summary</h2>
+            <p>Destination: <span id="trip-destination"></span></p>
+            <p>Planned Date: <span id="trip-planned-date"></span></p>
+        </div>
+
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
