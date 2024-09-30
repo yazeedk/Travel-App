@@ -11,4 +11,6 @@
 
 ### Run the application:
 ``` npm start -- --port 3001 ```
+OR
+``` npm start ```
 
