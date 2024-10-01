@@ -1,7 +1,7 @@
 # Travel-App
 
 ### Navigate to the travelPlanner directory:
-``` cd /root-directory/travelPlanner ```
+``` cd travelplanner ```
 
 ### Initialize the project:
 ``` npm init ```
